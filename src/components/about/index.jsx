@@ -33,18 +33,59 @@ const AboutDetails = () => {
             spells and technologies to shape the future of the web.
           </p>
         </ItemLayout>
-
         <ItemLayout className={"col-span-4 text-accent"}>
           <p className="font-semibold w-full text-left text-5xl">
-            25+ <sub className="font-semibold text-base">clients</sub>
+            30+ <sub className="font-semibold text-base">online projects</sub>
           </p>
         </ItemLayout>
-
         <ItemLayout className={"col-span-4 text-accent"}>
           <p className="font-semibold w-full text-left text-5xl">
             2+{" "}
             <sub className="font-semibold text-base">years of experience</sub>
           </p>
+        </ItemLayout>
+
+        <ItemLayout className={"col-span-4 !p-0"}>
+          <img
+            className="w-full h-auto"
+            src="https://github-readme-stats.vercel.app/api/top-langs?username=knllydgmntz&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
+            alt="Kyuts"
+            loading="lazy"
+          />
+        </ItemLayout>
+
+        <ItemLayout className={"col-span-8 !p-0"}>
+          <img
+            className="w-full h-auto"
+            src="https://github-readme-stats.vercel.app/api?username=knllydgmntz&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
+            alt="Kyuts"
+            loading="lazy"
+          />
+        </ItemLayout>
+
+        <ItemLayout className={"col-span-full"}>
+          <img
+            className="w-full h-auto"
+            src="https://skillicons.dev/icons?i=js,react,nextjs,ts,tailwind,html,css,nodejs,mongodb,express,figma,github,netlify,npm,postman,redux,stackoverflow,vercel,vite,vscode,firebase,bash"
+            alt="Kyuts"
+            loading="lazy"
+          />
+        </ItemLayout>
+        <ItemLayout className={"col-span-6 !p-0"}>
+          <img
+            className="w-full h-auto"
+            src="https://github-readme-streak-stats.herokuapp.com?user=knllydgmntz&theme=dark&hide_border=true&type=png&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B"
+            alt="Kyuts"
+            loading="lazy"
+          />
+        </ItemLayout>
+        <ItemLayout className={"col-span-6 !p-0"}>
+          <img
+            className="w-full h-auto"
+            src="https://github-readme-stats.vercel.app/api/pin/?username=knllydgmntz&repo=Portfolio-Nextjs-Threejs&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2"
+            alt="Kyuts"
+            loading="lazy"
+          />
         </ItemLayout>
       </div>
     </section>
